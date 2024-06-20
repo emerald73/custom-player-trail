@@ -11,4 +11,4 @@
 - The ability to customize both player 1 and 2 trails separately
 - Disable the trail outright if you feel like it idk why you'd download this mod if you did tho
 
-That's about it I think, feel free to submit an issue on [the repo](https://github.com/emerald73/custom-player-trail) or contact me on Discord @gdemerald if you have any issues!
+That's about it I think, feel free to submit an [issue](https://github.com/emerald73/custom-player-trail/issues) on or contact me on Discord @gdemerald if you have any issues!
