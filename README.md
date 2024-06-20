@@ -1,4 +1,4 @@
-# CustomPlayerTrail
+# Custom Player Trail
 
 ## A mod that started because I personally wanted to have a rainbow trail, and then I decided to make it more customizeable
 
