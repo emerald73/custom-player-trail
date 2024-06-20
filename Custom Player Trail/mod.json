@@ -1,0 +1,104 @@
+{
+	"geode": "3.0.0-beta.1",
+	"version": "v1.0.0",
+	"id": "gdemerald.customplayertrail",
+	"name": "Custom Player Trail",
+	"developer": "gdemerald",
+	"description": "Allows you to customize your player trail to any color you want, including rainbow",
+	"repository": "https://github.com/emerald73/custom-player-trail",
+	"issues": {
+			"info": "Submit any issues on the GitHub or dm @gdemerald on Discord!",
+			"url": "https://github.com/emerald73/custom-player-trail/issues"
+		},
+	"gd": {
+		"win": "2.206"
+	},
+	"settings": {
+		"enable-rainbow": {
+			"name": "Enable rainbow trail",
+			"type": "bool",
+			"description": "Enable rainbow player trail",
+			"default": true
+		},
+		"invert-player-2": {
+			"name": "Invert P2 trail",
+			"type": "bool",
+			"description": "Invert player 2 trail color",
+			"default": true
+		},
+		"speed": {
+			"name": "Speed",
+			"type": "float",
+			"default": 10,
+			"min": 1,
+			"max": 100,
+			"control": {
+        "slider-step": 1
+      },
+			"description": "Set the speed the rainbow trail shifts color"
+		},
+		"offset": {
+			"name": "Offset",
+			"type": "float",
+			"default": 0,
+			"min": 0,
+			"max": 360,
+			"control": {
+        "slider-step": 1
+      },
+			"description": "Set an offset for the trail gradient"
+		},
+		"saturation": {
+			"name": "Saturation",
+			"type": "float",
+			"default": 100,
+			"min": 0,
+			"max": 100,
+			"control": {
+        "slider-step": 1
+      },
+			"description": "Set the saturation of the trail"
+		},
+		"brightness": {
+			"name": "Brightness",
+			"type": "float",
+			"default": 100,
+			"min": 0,
+			"max": 100,
+			"control": {
+        "slider-step": 1
+      },
+			"description": "Set the brightness (value) of the trail"
+		},
+		"enable-custom-color": {
+			"name": "Enable custom trail color",
+			"type": "bool",
+			"description": "Enable custom color for your player trail",
+			"default": false
+		},
+		"color-P1": {
+			"name": "Trail color P1",
+			"type": "rgb",
+			"default": "#ffffff",
+			"description": "Set the color of player 1 trail"
+		},
+		"color-P2": {
+			"name": "Trail color P2",
+			"type": "rgb",
+			"default": "#ffffff",
+			"description": "Set the color of player 2 trail"
+		},
+		"disable-trail": {
+			"name": "Disable Trail",
+			"type": "bool",
+			"description": "Disable the trail altogether",
+			"default": false
+		},
+		"disable-trail-in-wave": {
+			"name": "Disable Trail In Wave",
+			"type": "bool",
+			"description": "Disable the trail during wave parts",
+			"default": true
+		}
+	}
+}
