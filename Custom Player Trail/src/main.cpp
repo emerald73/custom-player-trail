@@ -8,11 +8,6 @@
 
 using namespace geode::prelude;
 
-class $modify(PlayerObject) {
-  void flashPlayer(float p0, float p1, cocos2d::ccColor3B mainColor, cocos2d::ccColor3B secondColor) {
-  }
-};
-
 class $modify(PlayLayer) {
 	void postUpdate(float p0) {
     PlayLayer::postUpdate(p0);
