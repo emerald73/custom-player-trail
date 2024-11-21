@@ -1,6 +1,6 @@
 {
-	"geode": "3.4.0",
-	"version": "v1.0.2",
+	"geode": "4.0.1",
+	"version": "v1.0.3",
 	"id": "gdemerald.customplayertrail",
 	"name": "Custom Player Trail",
 	"developer": "gdemerald",
@@ -11,7 +11,7 @@
 			"url": "https://github.com/emerald73/custom-player-trail/issues"
 		},
 	"gd": {
-		"win": "2.206"
+		"win": "2.2074"
 	},
 	"settings": {
 		"enable-rainbow": {
